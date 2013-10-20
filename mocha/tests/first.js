@@ -1,4 +1,4 @@
-describe('Truth', function () {
+describe('truth', function () {
     it('should be true', function () {
         true.should.be.true;
     });
@@ -31,7 +31,7 @@ describe('ok', function() {
     });
 });
 
-describe('true, false, empty', function() {
+describe('base', function() {
     it('true', function() {
         true.should.be.true;
         '1'.should.not.be.true;
