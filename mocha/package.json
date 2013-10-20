@@ -1,0 +1,15 @@
+{
+  "name": "mocha",
+  "description": "A turtorial for Mocha",
+  "keywords": ["test", "framework", "mocha", "turtorial"],
+  "version": "1.0.0",
+  "author": "Vladimir Alekseichenko <to@vova.me>",
+  "scripts": {
+    "test": "mocha -r should -R nyan tests",
+    "rs" : "mocha --reporters"
+  },
+  "devDependencies": {
+    "should": "~2.0.1",
+    "mocha": "~1.13.0"
+  }
+}
