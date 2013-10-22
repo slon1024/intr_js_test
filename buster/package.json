@@ -1,0 +1,17 @@
+{
+  "name": "buster_turtorial",
+  "version": "1.0.0",
+  "description": "Turtorial for Buster.js",
+  "scripts": {
+    "test": "buster-test --config test/buster.js --reporter specification"
+  },
+  "keywords": [
+    "buster",
+    "javascript"
+  ],
+  "author": "Vladimir Alekseichenko <to@vova.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "buster": "~0.7.7"
+  }
+}
