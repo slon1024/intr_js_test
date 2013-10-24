@@ -1,0 +1,14 @@
+{
+  "name": "testem_turtorial",
+  "version": "1.0.0",
+  "description": "Turtorial for Testem",
+  "scripts": {
+    "test": "testem -f testem.config.json"
+  },
+  "author": "Vladimir Alekseichenko <to@vova.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "testem": "~0.5.4",
+    "phantomjs": "~1.9.2-2"
+  }
+}
