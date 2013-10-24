@@ -1,5 +1,7 @@
-var buster = require('buster');
-var assert = buster.assertions.assert;
+if (typeof require != "undefined") {
+    var buster = require('buster');
+    var assert = buster.assertions.assert;
+}
 
 buster.testCase('test', {
     'test 1': function() {
